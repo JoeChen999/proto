@@ -1,0 +1,51 @@
+message MystryChestLevelData
+{
+	required int32 id = 1;
+	required string icon = 2;
+	required int32 level = 3;
+}
+
+message MysteryDropGear
+{
+    required int32 geartype = 1;
+    required int32 weight   = 2;
+}
+
+message MystryChestData
+{
+	required int32 id = 1;
+	required string icon = 2;
+	required int64 starttime = 3;
+	required int64 finishtime = 4;
+	//required string buyTimes;
+	//required float rate;
+	required int32 price = 5;
+	//required string updateVersion;
+	//required string priority;
+	required bool forSale = 6;
+	required int64 discountStarttime = 7;
+	required int64 discountFinishtime = 8;
+	required int32 discountPrice = 9;
+	repeated MysteryDropGear dropGear = 10;
+	repeated int32 serverId = 11 [packed=true];
+}
+
+
+
+message MystryChestResponse
+{
+	// version
+	required int64 version = 1;
+	// 
+	repeated MystryChestData data = 2;
+	// 
+	repeated MystryChestLevelData ldata = 3;
+	// 
+	repeated int32 order = 4 [packed=true];
+}
+
+message MystryChestRequest
+{
+    required int64 version = 1;
+}
+

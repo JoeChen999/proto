@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/chenbiao/Documents/proto/mainWindow.py", line 82, in transRes
+    resData=self.protoInfo[2]
+IndexError: list index out of range

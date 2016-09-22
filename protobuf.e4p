@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project protobuf -->
+<!-- Saved: 2014-04-25, 14:17:32 -->
+<!-- Copyright (C) 2014 ,  -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Sources>
+    <Source>pb2py/PBMsgAssignHero_pb2.py</Source>
+    <Source>pb2py/PBMsgBoostHero_pb2.py</Source>
+    <Source>pb2py/PBMsgGDS_pb2.py</Source>
+    <Source>pb2py/PBMsgHeader_pb2.py</Source>
+    <Source>pb2py/PBMsgHeroHouseList_pb2.py</Source>
+    <Source>pb2py/PBMsgHeroInfo_pb2.py</Source>
+    <Source>pb2py/PBMsgHeroItemList_pb2.py</Source>
+    <Source>pb2py/PBMsgInitHeroExplore_pb2.py</Source>
+    <Source>pb2py/PBMsgPlayerInfo_pb2.py</Source>
+    <Source>pb2py/PBMsgProcessHeroExplore_pb2.py</Source>
+    <Source>pb2py/PBMsgPveInfo_pb2.py</Source>
+    <Source>pb2py/PBMsgPveMarchInfo_pb2.py</Source>
+    <Source>pb2py/PBMsgPveResultInfo_pb2.py</Source>
+    <Source>pb2py/PBMsgPveStaminaInfo_pb2.py</Source>
+    <Source>pb2py/PBMsgReqAssignHero_pb2.py</Source>
+    <Source>pb2py/PBMsgReqBoostHero_pb2.py</Source>
+    <Source>pb2py/PBMsgReqHeroHouseList_pb2.py</Source>
+    <Source>pb2py/PBMsgReqHeroItemList_pb2.py</Source>
+    <Source>pb2py/PBMsgReqInitHeroExplore_pb2.py</Source>
+    <Source>pb2py/PBMsgReqPlayerInfo_pb2.py</Source>
+    <Source>pb2py/PBMsgReqProcessHeroExplore_pb2.py</Source>
+    <Source>pb2py/PBMsgReqPve_pb2.py</Source>
+    <Source>pb2py/PBMsgReqPveInfo_pb2.py</Source>
+    <Source>pb2py/PBMsgReqPveMarch_pb2.py</Source>
+    <Source>pb2py/PBMsgReqUnassignHero_pb2.py</Source>
+    <Source>pb2py/PBMsgResponse_pb2.py</Source>
+    <Source>pb2py/PBMsgUnassignHero_pb2.py</Source>
+    <Source>pb2py/PBMsgUpdateSeed_pb2.py</Source>
+    <Source>__init__.py</Source>
+    <Source>pb2py/__init__.py</Source>
+    <Source>proxyserver.py</Source>
+    <Source>Ui_mainWindow.py</Source>
+    <Source>test.py</Source>
+    <Source>mainWindow.py</Source>
+    <Source>readconfig.py</Source>
+  </Sources>
+  <Forms>
+    <Form>mainWindow.ui</Form>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+    <Other>proto</Other>
+    <Other>database.ini</Other>
+  </Others>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>
